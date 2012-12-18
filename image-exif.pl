@@ -2,7 +2,7 @@ use Image::EXIF;
 use Geohash;
 use Path::Class;
 
-my $dir = dir('/home/sbarnesisrael/.InfoSec/IMG/EXIF');
+my $dir = dir('/PATH/TO/IMAGES/');
 my $geo = Geohash->new();
 
 while (my $file = $dir->next) {
