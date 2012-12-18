@@ -1,7 +1,7 @@
 use Image::ExifTool;
 use Data::Dumper;
 
-$file_name = '/home/sbarnesisrael/.InfoSec/IMG/EXIF/smart-13.jpg';
+$file_name = '/PATH/TO/IMAGE/image.jpg';
 $exiftool = new Image::ExifTool;
 $imageInfo = $exiftool->ImageInfo($file_name, 'Longitude', 'Latitude');
 
