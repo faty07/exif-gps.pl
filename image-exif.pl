@@ -15,5 +15,5 @@ while (my $file = $dir->next) {
 	print "$filename\t@$exif_info{'Longitude','Latitude'}\t\n";
 }
 
-#my $exif = Image::EXIF->new('/home/sbarnesisrael/.InfoSec/IMG/EXIF/smart-13.jpg');
+#my $exif = Image::EXIF->new('/PATH/TO/IMAGE.jpg');
 #print "GPS Coords: @$all_info{'Longitude','Latitude'}\n";
